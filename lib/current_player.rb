@@ -4,7 +4,7 @@ def turn_count(board)
     if moves != ""
     count += 1
   end
-  moves.count
+  moves(board).count
   end
 end
 
